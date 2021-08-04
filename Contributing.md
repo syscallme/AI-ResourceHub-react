@@ -8,4 +8,6 @@
 - Submit the pull request with required descriptions!
 - Woahh...done!
 
-> If you want to submit changes for styling and other React stuff, please include some images / gifs in the 
+> If you want to submit changes for styling and other React stuff, please include some images / gifs in the request. That'll will be awesome!!
+
+---
