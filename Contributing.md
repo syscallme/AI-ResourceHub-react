@@ -5,4 +5,7 @@
 - Open the project in your preferred editor.
 - Run npm install in the project's root directory. (Make sure you have npm installed!)
 - Make your changes in the `src/ml_resources.json` file by adding new resources following the pattern given in the file.
-- Submit the pull request with required descript
+- Submit the pull request with required descriptions!
+- Woahh...done!
+
+> If you want to submit changes for styli
