@@ -16,4 +16,6 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "start": "react-script
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "
