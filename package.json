@@ -11,4 +11,6 @@
     "react-sticky-mouse-tooltip": "^0.0.1",
     "react-tiny-link": "^3.6.0"
   },
-  "de
+  "devDependencies": {
+    "@types/react": "^16.9.52",
+    "
