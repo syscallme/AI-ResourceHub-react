@@ -32,4 +32,5 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceW
+          navigator.serviceWorker.register('worker.js').then(function(registration) {
+     
