@@ -29,4 +29,6 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener("activate", (event) => {
   var cacheWhitelist = ["machine-learning-resources"];
   event.waitUntil(
-    ca
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+   
