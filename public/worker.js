@@ -27,4 +27,6 @@ self.addEventListener("fetch", (event) => {
 
 // Update a service worker
 self.addEventListener("activate", (event) => {
-  var ca
+  var cacheWhitelist = ["machine-learning-resources"];
+  event.waitUntil(
+    ca
