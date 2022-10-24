@@ -10,3 +10,7 @@ const App: React.FC = () => {
       <Main />
       <Footer />
     </div>
+  );
+};
+
+export default App;
