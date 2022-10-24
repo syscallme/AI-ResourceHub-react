@@ -33,4 +33,10 @@ self.addEventListener("activate", (event) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheWhitelist.indexOf(cacheName) === -1) {
-            return caches.delete(cacheN
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
