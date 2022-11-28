@@ -73,3 +73,45 @@ const Display: React.FC = () => {
               <div
                 className="bxstyle"
                 key={resource.id}
+                onMouseLeave={() => setUrl("")}
+                onMouseEnter={() => setUrl(resource.link)}
+                onClick={() => window.open(resource.link, "_blank")}
+              >
+                <dt>
+                  <span
+                    className="title"
+                    role="img"
+                    aria-label={resource.title}
+                  >
+                    {resource.title}
+                  </span>
+                </dt>
+                <hr />
+                <dd>
+                  <span className="describe">{resource.description}</span>
+                </dd>
+                <hr />
+                <ul>
+                  <p> Tags: </p>
+                  {resource.tags.map((item, key) => (
+                    <li key={key}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+      </dl>
+      {url.length > 0 ? (
+        <MouseTooltip visible={url !== ""} offsetX={15} offsetY={10}>
+          {hoverPreview}
+        </MouseTooltip>
+      ) : (
+        <MouseTooltip visible={false} offsetX={15} offsetY={10}>
+          <></>
+        </MouseTooltip>
+      )}
+    </div>
+  );
+};
+
+export default Display;
