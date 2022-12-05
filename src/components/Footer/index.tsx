@@ -3,4 +3,5 @@ import "./styles.css";
 
 const Footer: React.FC = () => {
   return (
-    <foot
+    <footer className="footer">
+      ML Resources &#169;{new Da
