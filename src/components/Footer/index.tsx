@@ -10,4 +10,10 @@ const Footer: React.FC = () => {
         target="blank"
         rel="noreferrer"
       >
-   
+        MIT
+      </a>
+    </footer>
+  );
+};
+
+export default F
