@@ -6,4 +6,5 @@ type Props = {
   setSearch: React.Dispatch<React.SetStateAction<string>>;
 };
 
-export co
+export const Header = ({ searchValue, setSearch }: Props) => {
+  retur
