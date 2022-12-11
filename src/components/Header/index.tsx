@@ -3,4 +3,7 @@ import "./styles.css";
 
 type Props = {
   searchValue: string;
-  setSearch: Rea
+  setSearch: React.Dispatch<React.SetStateAction<string>>;
+};
+
+export co
