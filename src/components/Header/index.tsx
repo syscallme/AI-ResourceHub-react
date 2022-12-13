@@ -11,4 +11,6 @@ export const Header = ({ searchValue, setSearch }: Props) => {
     <header>
       <h1>ML Resources</h1>
       <input
-        typ
+        type="text"
+        placeholder="Search resource"
+        value={se
