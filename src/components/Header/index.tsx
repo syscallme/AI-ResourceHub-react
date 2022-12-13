@@ -7,4 +7,8 @@ type Props = {
 };
 
 export const Header = ({ searchValue, setSearch }: Props) => {
-  retur
+  return (
+    <header>
+      <h1>ML Resources</h1>
+      <input
+        typ
