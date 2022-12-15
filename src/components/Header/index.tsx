@@ -15,3 +15,7 @@ export const Header = ({ searchValue, setSearch }: Props) => {
         placeholder="Search resource"
         value={searchValue}
         onChange={({ target: { value } }) => setSearch(value)}
+      />
+    </header>
+  );
+};
