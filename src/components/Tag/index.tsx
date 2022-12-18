@@ -1,2 +1,5 @@
 import React from "react";
-import "./st
+import "./styles.css";
+
+export const Tag = ({ children }: any) => {
+  r
