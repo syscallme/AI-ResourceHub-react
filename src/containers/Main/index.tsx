@@ -4,4 +4,7 @@ import { useState } from "react";
 import MouseTooltip from "react-sticky-mouse-tooltip";
 import { ReactTinyLink } from "react-tiny-link";
 import { Header } from "../../components/Header";
-import { CardResou
+import { CardResource } from "../../components/CardResource";
+import "./styles.css";
+
+fun
