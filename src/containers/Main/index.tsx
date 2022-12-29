@@ -10,4 +10,6 @@ import "./styles.css";
 function shuffle<T>(ogArr: Array<T>): Array<T> {
   // Do cloning to prevent mutation
   const arr = [...ogArr];
-  for (let i = arr.length - 1;
+  for (let i = arr.length - 1; i > 0; i--) {
+    const newI = Math.floor(Math.random() * (i + 1));
+   
