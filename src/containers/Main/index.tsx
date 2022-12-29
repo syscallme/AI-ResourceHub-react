@@ -7,4 +7,5 @@ import { Header } from "../../components/Header";
 import { CardResource } from "../../components/CardResource";
 import "./styles.css";
 
-fun
+function shuffle<T>(ogArr: Array<T>): Array<T> {
+  // Do c
