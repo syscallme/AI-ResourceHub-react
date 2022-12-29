@@ -8,4 +8,6 @@ import { CardResource } from "../../components/CardResource";
 import "./styles.css";
 
 function shuffle<T>(ogArr: Array<T>): Array<T> {
-  // Do c
+  // Do cloning to prevent mutation
+  const arr = [...ogArr];
+  for (let i = arr.length - 1;
