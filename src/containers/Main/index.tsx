@@ -21,4 +21,5 @@ function shuffle<T>(ogArr: Array<T>): Array<T> {
 
 const resources = shuffle(unshuffledResources);
 
-const
+const Main = () => {
+  const [search, setSearch] = useState(""
