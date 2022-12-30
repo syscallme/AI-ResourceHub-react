@@ -14,4 +14,11 @@ function shuffle<T>(ogArr: Array<T>): Array<T> {
     const newI = Math.floor(Math.random() * (i + 1));
     const tempValue = arr[newI];
     arr[newI] = arr[i];
-    arr[i] 
+    arr[i] = tempValue;
+  }
+  return arr;
+}
+
+const resources = shuffle(unshuffledResources);
+
+const
