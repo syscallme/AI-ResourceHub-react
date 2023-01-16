@@ -31,4 +31,5 @@ const Main = () => {
     }
     return resources.filter(
       (resource) =>
-        resource
+        resource.link.toLowerCase().includes(search.toLowerCase()) ||
+        resource.descr
