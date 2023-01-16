@@ -25,4 +25,8 @@ const Main = () => {
   const [search, setSearch] = useState("");
   const [url, setUrl] = useState("");
 
-  function g
+  function getResources() {
+    if (!search) {
+      return resources;
+    }
+    return 
