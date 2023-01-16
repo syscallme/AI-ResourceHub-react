@@ -22,4 +22,7 @@ function shuffle<T>(ogArr: Array<T>): Array<T> {
 const resources = shuffle(unshuffledResources);
 
 const Main = () => {
-  const [search, setSearch] = useState(""
+  const [search, setSearch] = useState("");
+  const [url, setUrl] = useState("");
+
+  function g
