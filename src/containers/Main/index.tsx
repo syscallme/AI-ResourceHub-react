@@ -29,4 +29,6 @@ const Main = () => {
     if (!search) {
       return resources;
     }
-    return 
+    return resources.filter(
+      (resource) =>
+        resource
