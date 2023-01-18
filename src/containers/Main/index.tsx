@@ -33,4 +33,5 @@ const Main = () => {
       (resource) =>
         resource.link.toLowerCase().includes(search.toLowerCase()) ||
         resource.description.toLowerCase().includes(search.toLowerCase()) ||
-        resource.title.toLowerCase().includes(search.toLowe
+        resource.title.toLowerCase().includes(search.toLowerCase()) ||
+        resource.tags.join(" ").toLowerCase().includ
