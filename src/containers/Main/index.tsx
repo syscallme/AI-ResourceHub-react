@@ -34,4 +34,8 @@ const Main = () => {
         resource.link.toLowerCase().includes(search.toLowerCase()) ||
         resource.description.toLowerCase().includes(search.toLowerCase()) ||
         resource.title.toLowerCase().includes(search.toLowerCase()) ||
-        resource.tags.join(" ").toLowerCase().includ
+        resource.tags.join(" ").toLowerCase().includes(search.toLowerCase())
+    );
+  }
+
+  const hoverPreview = url
