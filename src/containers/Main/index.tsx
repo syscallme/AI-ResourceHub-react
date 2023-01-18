@@ -32,4 +32,5 @@ const Main = () => {
     return resources.filter(
       (resource) =>
         resource.link.toLowerCase().includes(search.toLowerCase()) ||
-        resource.descr
+        resource.description.toLowerCase().includes(search.toLowerCase()) ||
+     
