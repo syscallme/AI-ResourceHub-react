@@ -38,4 +38,6 @@ const Main = () => {
     );
   }
 
-  const hoverPreview = url
+  const hoverPreview = url ? (
+    <ReactTinyLink
+      cardSize="small"
