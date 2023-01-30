@@ -41,3 +41,7 @@ const Main = () => {
   const hoverPreview = url ? (
     <ReactTinyLink
       cardSize="small"
+      showGraphic={true}
+      maxLine={2}
+      minLine={1}
+  
