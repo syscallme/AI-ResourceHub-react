@@ -44,4 +44,7 @@ const Main = () => {
       showGraphic={true}
       maxLine={2}
       minLine={1}
-  
+      url={url}
+      onError={(e: Error) => console.log(e)}
+    />
+  ) : nu
