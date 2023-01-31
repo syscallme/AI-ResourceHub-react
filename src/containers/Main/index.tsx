@@ -47,4 +47,7 @@ const Main = () => {
       url={url}
       onError={(e: Error) => console.log(e)}
     />
-  ) : nu
+  ) : null;
+
+  const resourceCards = getResources().map((res) => {
+    return (
