@@ -51,3 +51,6 @@ const Main = () => {
 
   const resourceCards = getResources().map((res) => {
     return (
+      <CardResource
+        key={res.id}
+        resource=
