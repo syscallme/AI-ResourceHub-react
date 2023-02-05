@@ -53,4 +53,6 @@ const Main = () => {
     return (
       <CardResource
         key={res.id}
-        resource=
+        resource={{ ...res, id: res.id.toString() }}
+        setUrl={setUrl}
+     
