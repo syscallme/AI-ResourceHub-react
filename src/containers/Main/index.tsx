@@ -55,4 +55,10 @@ const Main = () => {
         key={res.id}
         resource={{ ...res, id: res.id.toString() }}
         setUrl={setUrl}
-     
+      />
+    );
+  });
+
+  return (
+    <div>
+      <Header searchValue={search}
