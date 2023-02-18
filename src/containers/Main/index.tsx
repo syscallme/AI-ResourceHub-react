@@ -64,4 +64,6 @@ const Main = () => {
       <Header searchValue={search} setSearch={setSearch} />
       <div className="resources-container">{resourceCards}</div>
       {url.length > 0 ? (
-       
+        <MouseTooltip
+          visible={url !== "" || url !== undefined}
+    
