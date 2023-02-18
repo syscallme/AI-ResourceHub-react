@@ -61,4 +61,5 @@ const Main = () => {
 
   return (
     <div>
-      <Header searchValue={search}
+      <Header searchValue={search} setSearch={setSearch} />
+      <div className="re
