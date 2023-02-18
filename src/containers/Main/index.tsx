@@ -73,4 +73,9 @@ const Main = () => {
         </MouseTooltip>
       ) : (
         <MouseTooltip visible={false} offsetX={15} offsetY={10}>
-          
+          <></>
+        </MouseTooltip>
+      )}
+    </div>
+  );
+};
