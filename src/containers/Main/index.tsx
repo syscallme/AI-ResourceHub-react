@@ -66,4 +66,7 @@ const Main = () => {
       {url.length > 0 ? (
         <MouseTooltip
           visible={url !== "" || url !== undefined}
-    
+          offsetX={15}
+          offsetY={10}
+        >
+      
