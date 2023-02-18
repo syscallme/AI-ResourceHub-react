@@ -72,4 +72,5 @@ const Main = () => {
           {hoverPreview}
         </MouseTooltip>
       ) : (
-        
+        <MouseTooltip visible={false} offsetX={15} offsetY={10}>
+          
