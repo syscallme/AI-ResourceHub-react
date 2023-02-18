@@ -62,4 +62,6 @@ const Main = () => {
   return (
     <div>
       <Header searchValue={search} setSearch={setSearch} />
-      <div className="re
+      <div className="resources-container">{resourceCards}</div>
+      {url.length > 0 ? (
+       
