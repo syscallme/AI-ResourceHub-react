@@ -69,4 +69,7 @@ const Main = () => {
           offsetX={15}
           offsetY={10}
         >
-      
+          {hoverPreview}
+        </MouseTooltip>
+      ) : (
+        
