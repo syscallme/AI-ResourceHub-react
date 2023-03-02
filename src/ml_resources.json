@@ -1,0 +1,37 @@
+
+[{
+		"id": 1,
+		"title": "Andrew NG's Coursera Course",
+		"description": "One of the best courses to get started with Machine Learning.",
+		"tags": ["Coursera", "Matlab"],
+		"link": "https://www.coursera.org/learn/machine-learning"
+	},
+	{
+		"id": 2,
+		"title": "Sentdex's YT Playlist",
+		"description": "Get started with ML using Python.",
+		"tags": ["Youtube", "Free", "Python", "Free"],
+		"link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"
+	},
+	{
+		"id": 3,
+		"title": "Stanford CS229: Machine Learning | Autumn 2018",
+		"description": "Stanford University Lectures on Machine Learning Introductory Course.",
+		"tags": ["Stanford", "Begineer"],
+		"link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+	},
+	{
+		"id": 4,
+		"title": "3Blue1Brown Neural Network playlist",
+		"description": "Basic overview of neural networks",
+		"tags": ["Youtube", "Free", "Neural Networks"],
+		"link": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+	},
+	{
+		"id": 5,
+		"title": "Instill-AI's ML Course",
+		"description": "A github repo with ML explanation with code examples",
+		"tags": ["github","free"],
+		"link": "https://github.com/instillai/machine-learning-course"
+	},
+	{
