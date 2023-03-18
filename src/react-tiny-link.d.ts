@@ -1,1 +1,1 @@
-declare module 're
+declare module 'react-tiny-link';
