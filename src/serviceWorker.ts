@@ -21,4 +21,5 @@ const isLocalhost = Boolean(
 );
 
 type Config = {
-  onSucce
+  onSuccess?: (registration: ServiceWorkerRegistration) => void;
+  onUpdate?: (registr
