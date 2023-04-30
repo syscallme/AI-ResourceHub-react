@@ -22,4 +22,7 @@ const isLocalhost = Boolean(
 
 type Config = {
   onSuccess?: (registration: ServiceWorkerRegistration) => void;
-  onUpdate?: (registr
+  onUpdate?: (registration: ServiceWorkerRegistration) => void;
+};
+
+export function regi
