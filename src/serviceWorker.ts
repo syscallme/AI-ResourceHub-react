@@ -44,3 +44,5 @@ export function register(config?: Config) {
         checkValidServiceWorker(swUrl, config);
 
         // Add some additional logging to localhost, pointing developers to the
+        // service worker/PWA documentation.
+        navigat
