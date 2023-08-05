@@ -52,4 +52,5 @@ export function register(config?: Config) {
           );
         });
       } else {
-        // Is not localhos
+        // Is not localhost. Just register service worker
+        registerValidSW(swUrl, 
