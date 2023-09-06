@@ -61,4 +61,6 @@ export function register(config?: Config) {
 
 function registerValidSW(swUrl: string, config?: Config) {
   navigator.serviceWorker
-    .regist
+    .register(swUrl)
+    .then((registration) => {
+      registration.onupda
