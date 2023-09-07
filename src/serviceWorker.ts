@@ -68,4 +68,5 @@ function registerValidSW(swUrl: string, config?: Config) {
         if (installingWorker == null) {
           return;
         }
-        
+        installingWorker.onstatechange = () => {
+          if (installingWorke
