@@ -72,4 +72,5 @@ function registerValidSW(swUrl: string, config?: Config) {
           if (installingWorker.state === "installed") {
             if (navigator.serviceWorker.controller) {
               // At this point, the updated precached content has been fetched,
-              // but the previ
+              // but the previous service worker will still serve the older
+              // content until all cli
