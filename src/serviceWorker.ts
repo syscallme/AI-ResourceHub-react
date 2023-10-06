@@ -70,4 +70,5 @@ function registerValidSW(swUrl: string, config?: Config) {
         }
         installingWorker.onstatechange = () => {
           if (installingWorker.state === "installed") {
-            if (navigator
+            if (navigator.serviceWorker.controller) {
+              // At this point, the upd
