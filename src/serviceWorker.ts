@@ -76,4 +76,5 @@ function registerValidSW(swUrl: string, config?: Config) {
               // content until all client tabs are closed.
               console.log(
                 "New content is available and will be used when all " +
-                  "tabs for t
+                  "tabs for this page are closed. See https://cra.link/PWA."
+           
