@@ -77,4 +77,7 @@ function registerValidSW(swUrl: string, config?: Config) {
               console.log(
                 "New content is available and will be used when all " +
                   "tabs for this page are closed. See https://cra.link/PWA."
-           
+              );
+
+              // Execute callback
+              if (confi
