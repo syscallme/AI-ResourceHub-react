@@ -80,4 +80,5 @@ function registerValidSW(swUrl: string, config?: Config) {
               );
 
               // Execute callback
-              if (confi
+              if (config && config.onUpdate) {
+                config.onUpdate(registration
