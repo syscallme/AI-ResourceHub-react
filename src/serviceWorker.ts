@@ -90,4 +90,5 @@ function registerValidSW(swUrl: string, config?: Config) {
               console.log("Content is cached for offline use.");
 
               // Execute callback
-              if (config &&
+              if (config && config.onSuccess) {
+                config.onSuccess(regi
