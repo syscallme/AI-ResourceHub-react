@@ -95,4 +95,8 @@ function registerValidSW(swUrl: string, config?: Config) {
               }
             }
           }
-      
+        };
+      };
+    })
+    .catch((error) => {
+      console.err
