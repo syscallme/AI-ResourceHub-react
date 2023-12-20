@@ -103,4 +103,5 @@ function registerValidSW(swUrl: string, config?: Config) {
     });
 }
 
-f
+function checkValidServiceWorker(swUrl: string, config?: Config) {
+ 
