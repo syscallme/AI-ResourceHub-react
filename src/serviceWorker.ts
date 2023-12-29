@@ -104,4 +104,4 @@ function registerValidSW(swUrl: string, config?: Config) {
 }
 
 function checkValidServiceWorker(swUrl: string, config?: Config) {
- 
+  // Check if the service worker can be found. If it can't reload the 
