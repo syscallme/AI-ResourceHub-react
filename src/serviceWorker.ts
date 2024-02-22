@@ -109,4 +109,5 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
     headers: { "Service-Worker": "script" }
   })
     .then((response) => {
-      // Ensure service wor
+      // Ensure service worker exists, and that we really are getting a JS file.
+      const con
