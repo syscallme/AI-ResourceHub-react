@@ -126,4 +126,6 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
         registerValidSW(swUrl, config);
       }
     })
-    .catch(() =
+    .catch(() => {
+      console.log(
+        "No internet connection found. App is 
