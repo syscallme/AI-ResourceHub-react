@@ -128,4 +128,9 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
     })
     .catch(() => {
       console.log(
-        "No internet connection found. App is 
+        "No internet connection found. App is running in offline mode."
+      );
+    });
+}
+
+export function un
