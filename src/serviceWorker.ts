@@ -121,4 +121,6 @@ function checkValidServiceWorker(swUrl: string, config?: Config) {
             window.location.reload();
           });
         });
-      } 
+      } else {
+        // Service worker found. Proceed as normal.
+        
