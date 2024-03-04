@@ -6,4 +6,7 @@
 }
 @font-face {
   font-family: "Poppins-Light";
-  src: local("Poppins"), url(../fonts/Po
+  src: local("Poppins"), url(../fonts/Poppins-Light.ttf) format(".ttf");
+}
+
+@import url("https://fonts.goo
