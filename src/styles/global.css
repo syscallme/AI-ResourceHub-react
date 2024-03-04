@@ -2,4 +2,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins"), url(../fonts/Popp
+  src: local("Poppins"), url(../fonts/Poppins-Bold.ttf) format(".ttf");
+}
+@font-face {
+  font-fam
