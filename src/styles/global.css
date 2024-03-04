@@ -5,4 +5,5 @@
   src: local("Poppins"), url(../fonts/Poppins-Bold.ttf) format(".ttf");
 }
 @font-face {
-  font-fam
+  font-family: "Poppins-Light";
+  src: local("Poppins"), url(../fonts/Po
