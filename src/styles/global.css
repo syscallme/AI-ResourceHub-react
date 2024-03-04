@@ -9,4 +9,7 @@
   src: local("Poppins"), url(../fonts/Poppins-Light.ttf) format(".ttf");
 }
 
-@import url("https://fonts.goo
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing
