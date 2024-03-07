@@ -29,4 +29,6 @@ body {
   line-height: 1.666;
   color: var(--dark-gray);
   margin: 0 auto;
-  ba
+  background-color: var(--main-bg-color);
+}
+body::-webkit-scrollbar 
