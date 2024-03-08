@@ -31,4 +31,9 @@ body {
   margin: 0 auto;
   background-color: var(--main-bg-color);
 }
-body::-webkit-scrollbar 
+body::-webkit-scrollbar {
+  width: 0.7rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar-t
