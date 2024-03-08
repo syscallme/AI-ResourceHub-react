@@ -44,4 +44,6 @@ body::-webkit-scrollbar-track {
   );
 }
 
-body::-webkit-scrollbar-thu
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 1
