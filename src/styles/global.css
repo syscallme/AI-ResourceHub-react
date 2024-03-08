@@ -36,4 +36,6 @@ body::-webkit-scrollbar {
   height: 0.5rem;
 }
 
-body::-webkit-scrollbar-t
+body::-webkit-scrollbar-track {
+  background-image: radial-gradient(
+    circle farthest-corner at
