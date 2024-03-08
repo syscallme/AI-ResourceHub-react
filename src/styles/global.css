@@ -38,4 +38,6 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background-image: radial-gradient(
-    circle farthest-corner at
+    circle farthest-corner at 12.3% 19.3%,
+    var(--gradient-first-color) 0%,
+   
