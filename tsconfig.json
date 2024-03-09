@@ -9,4 +9,6 @@
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "allo
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceC
