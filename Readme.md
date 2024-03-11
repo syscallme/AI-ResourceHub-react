@@ -1,3 +1,3 @@
 ## AI-ResourceHub React Application
 
-This compelling Rea
+This compelling React application showcases a multitude of Machine Learning resourc
