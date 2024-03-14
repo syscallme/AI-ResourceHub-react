@@ -5,4 +5,6 @@ This compelling React application showcases a multitude of Machine Learning reso
 ![GitHub forks](https://img.shields.io/github/forks/syscallme/AI-ResourceHub-react?style=social)
 ![GitHub contributors](https://img.shields.io/github/contributors/syscallme/AI-ResourceHub-react?style=plastic)
 
-## P
+## Purpose
+
+The purpose of this repository is to organize and gather some quali
