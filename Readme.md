@@ -13,4 +13,7 @@ The purpose of this repository is to organize and gather some quality resources 
 
 [Click to access the site.](https://sharp-gates-258dae.netlify.app/)
 
-## Contributing 
+## Contributing Guide
+
+- Star and fork this repository.
+- Clone to your l
