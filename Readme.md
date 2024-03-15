@@ -7,4 +7,8 @@ This compelling React application showcases a multitude of Machine Learning reso
 
 ## Purpose
 
-The purpose of this repository is to organize and gather some quality resources for Machine Learning and also to engage contributors for Ha
+The purpose of this repository is to organize and gather some quality resources for Machine Learning and also to engage contributors for Hacktoberfest!!
+
+## Accessing the Site
+
+[Click to access th
