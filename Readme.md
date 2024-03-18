@@ -16,4 +16,5 @@ The purpose of this repository is to organize and gather some quality resources 
 ## Contributing Guide
 
 - Star and fork this repository.
-- Clone to your l
+- Clone to your local using `git clone $url`
+- Open the project in your pr
