@@ -17,4 +17,5 @@ The purpose of this repository is to organize and gather some quality resources 
 
 - Star and fork this repository.
 - Clone to your local using `git clone $url`
-- Open the project in your pr
+- Open the project in your preferred editor.
+- Run npm install in the project's roo
