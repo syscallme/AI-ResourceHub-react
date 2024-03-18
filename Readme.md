@@ -18,4 +18,5 @@ The purpose of this repository is to organize and gather some quality resources 
 - Star and fork this repository.
 - Clone to your local using `git clone $url`
 - Open the project in your preferred editor.
-- Run npm install in the project's root directory. (Ensure that npm is installed in your system
+- Run npm install in the project's root directory. (Ensure that npm is installed in your system!)
+- Make your contributions in the `src/ml_resources.json
