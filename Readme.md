@@ -23,4 +23,6 @@ The purpose of this repository is to organize and gather some quality resources 
 - Submit a pull request with necessary details.
 - Congratulations on your successful contribution!
 
-> If you aim to submit changes for styling and other React-related enhancements, kindly include some photos /
+> If you aim to submit changes for styling and other React-related enhancements, kindly include some photos / gifs in the request. It'll be absolutely appreciated!! 
+
+>
