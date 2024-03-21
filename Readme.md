@@ -20,4 +20,5 @@ The purpose of this repository is to organize and gather some quality resources 
 - Open the project in your preferred editor.
 - Run npm install in the project's root directory. (Ensure that npm is installed in your system!)
 - Make your contributions in the `src/ml_resources.json` file by including new resources, following the pattern present in the file.
-- Submit a pull request with necessary d
+- Submit a pull request with necessary details.
+- Congratulations on your successful contributi
